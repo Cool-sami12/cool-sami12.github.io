@@ -66,6 +66,10 @@ a:hover{
     background-color: #ffffff;
     height: 300px;
 }
+.word{
+    color: blue;
+    font-size: 20px;
+}
 
 #foot{
     padding: 10px;
