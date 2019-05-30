@@ -1,0 +1,100 @@
+body{
+    font-family:'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+header{
+    padding:10px;
+    min-height: 70px;
+    background-color: white;
+}
+#logo{
+    float: left;
+    margin-right:15%;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active{
+    color:rgb(18, 33, 248);
+}
+a:hover{
+     color:rgb(18, 33, 248);
+}
+#allegiancecontainer{
+     width: 100%;
+     height: 400px;
+    margin: auto;
+    background: url("img/giphy4.gif");   
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top:15%;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+h3{
+    padding-bottom: 8%;
+    font-size:20px;
+}
+.more{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(3, 3, 184);
+    color: white;
+    width: 150px;
+    height: 50px;
+    outline: none; 
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+#techie{
+    min-height:300px;
+    margin-top: 10px;
+    color:rgb(3, 3, 184);
+}
+.box{
+    float: left;
+    width:30%;
+    text-align: center;
+    padding: 10px;
+}
+.project{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+
+}
+#foot{
+    padding: 10px;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
