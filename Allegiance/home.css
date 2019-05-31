@@ -1,0 +1,164 @@
+body{
+    font-family:'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+#body{
+    background-color: #145297;
+    height: 550px;
+    color:white;
+     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+    font-weight:bolder;   
+}
+#logo{
+    float: left;
+    margin-top: 5px;
+    margin-right:25%;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.active{
+    color: #010a3f;
+}
+.nav li a:hover{
+     color: #010a3f;
+}
+.nav li{
+    color:white ;
+}
+.nav li a{
+    color: white;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+#jcc{
+    font-size: 20px;
+    float: right;
+    color:white;
+    margin-top: 10px;
+    padding-left:5px;
+}
+#content{
+    text-align: center; 
+    padding-top: 8%;
+    text-transform: uppercase;
+}
+.text{
+    padding-bottom: 5px;
+    word-spacing:20px;
+    font-size: 40px;
+}
+.text1{
+    padding-bottom: 10px;
+    word-spacing:20px;
+    color:#f1f1f1;
+    font-size:15px;
+}
+.text2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    word-spacing:20px;
+    font-size: 25px;
+}
+#about{
+    height: 350px;
+}
+#about h3{
+    color:#1e3b71;
+}
+
+.box{
+    float: left;
+    width:20%;
+    text-align: center;
+    padding: 20px;
+}
+#work{
+    height: 400px;
+    background-color: #145297;
+    color:#f1f1f1;
+    }
+    #work h3{
+        color:#ffffff;
+    }
+#contact {
+    height: 370px;
+    color: #1e3b71;
+    margin: 10px;
+}
+#contact h4{
+    margin: 10px;
+
+}
+#form{
+    width: 80%;
+    float: left;
+}
+.cform{
+    width:250px;
+    height: 30px;
+    margin: 10px;
+    padding:5px;
+      background-color: #145297;
+      color: #ffffff;
+      border: none;
+}
+::placeholder{
+    color:#ffffff; 
+}
+#mform{
+    width:550px;
+    height: 100px;
+    margin: 10px;
+    padding:5px;
+     background-color: #145297;
+      color: #ffffff;
+      border: none;
+}
+#btnsend{
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px 10px;
+      border: none;
+      outline: none;
+      background-color: #145297;
+      color: #ffffff;
+}
+#foot{
+    background-color: #145297;
+    height: 70px;
+}
+
+#foot h5{
+    text-align: center;
+    color:#ffffff;
+}
