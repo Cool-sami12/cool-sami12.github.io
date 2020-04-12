@@ -1,0 +1,144 @@
+.hero-section{
+    background-image: url(img/global.jpg);
+    height: 498px;
+    color: white;
+
+}
+header{
+    padding-top: 30px;
+}
+.nav-item:hover{
+        color: #d82a4e;
+}
+.tp{
+    padding-left:5px;
+}
+.nav-item  {
+    color: white;
+    margin-left: 20px;
+}
+.header-btn{
+    margin-left: 100px;
+    color: white;
+    background-color: #d82a4e;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+}
+.site-btn{
+    color: white;
+    background-color: #d82a4e;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+}
+.header-btn:hover{
+     text-decoration: none;
+    outline: none;
+}
+.hero-text{
+    padding-top: 10%;
+    margin-left: 10%;
+}
+h2{
+    color: black;
+}
+.nw{
+    padding-left: 6%;
+    padding-bottom: 5%;
+}
+.intro-newsletter input{
+    height: 53px;
+    width: 36.4%;
+    padding: 0 30px;
+    margin-right: 22px;
+    float: left;
+    border: none;
+    font-size: 14px;
+}
+.categories-section{
+    height: 720px;
+}
+.second{
+    margin-top: 5%;
+    text-align: center;
+    color:black;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 700px;
+    
+}
+.card{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-bottom:10px;
+    margin-top: 15%;
+}
+.card-body:hover{
+    background-color: #d82a4e;
+    color: #ffffff;
+}
+.card-body{
+     background-color: #f1f1f1;
+     border: none;
+}
+.card-body h5{
+    font-size: 15px;
+    color: #d82a4e;
+}
+.card-body:hover h5{
+     background-color: #d82a4e;
+    color: #ffffff;
+}
+.search-wrap{
+    height: 250px;
+    background-color: #d82a4e;
+    text-align: center;
+}
+.section-title{
+    padding-top: 30px;
+}
+.text-white{
+    color: #ffffff;
+}
+.course-search-form{
+    height: 100px;
+    padding-top: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+    padding-left:20px;   
+}
+.first-m, .last-m{
+width: 300px;
+height: 56px;
+background: #edf4f6;
+padding: 0 30px;
+border: none;
+font-size: 14px; 
+float: left;
+}
+.last-m{
+    margin-left:15px;
+}
+.site-btn1{
+    color: white;
+    background-color: #d82a4e;
+    width: 250px;
+    height: 56px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+}
