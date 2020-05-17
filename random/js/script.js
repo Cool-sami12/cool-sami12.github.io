@@ -150,7 +150,7 @@ function printQuote(){
 
 }
 
-window.setInterval(printQuote,2000)
+window.setInterval(printQuote,6000)
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
