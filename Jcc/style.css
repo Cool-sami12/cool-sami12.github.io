@@ -1,0 +1,269 @@
+/*font-family: 'Karla', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h4,p,ul,span,li{   
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla' sans-serif;
+
+
+}
+header{
+  background: linear-gradient(-45deg, rgb(153, 79, 0), rgb(255, 163, 26), rgb(255, 128, 0), rgb(255, 230, 204));
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 20s ease infinite;
+  -moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 10px;
+    
+}
+
+.branding > div{
+    display:inline;
+    font-size:1.2em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+.branding div::after{
+  content:'city cake';
+  display:block;
+  font-size:0.6em;
+  font-weight: 400;
+  padding-left:25%;
+  text-transform: uppercase;
+  
+}
+nav{
+    margin: 10px;
+    color: white;
+    line-height: 1.9;
+    
+}
+.branding img{
+    margin:0;
+    padding:0;
+}
+nav ul {
+    display:flex;
+    padding:0;
+    list-style-type: none;
+
+}
+nav ul li{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul button{
+    width:140px;
+    border: 1px solid rgb(255, 128, 0);
+    border-radius: 10px;
+    height:40px;
+    padding: 5px;
+    text-transform: uppercase;
+    color:rgb(255, 128, 0);
+    background-color: white;
+    font-size: 0.7em;
+    font-weight:bold;
+}
+section >.container{
+    display: flex;
+    flex-direction: row;
+}
+.first{
+    padding:80px 50px;
+
+}
+.first h1{
+    padding:20px 0px;
+    font-size: 3em;
+    font-weight:700;
+    color:rgb(255, 128, 0);
+
+}
+
+.first p{
+    padding:20px 0px;
+    font-size: 1em;
+    font-weight:400;
+    color:rgb(255, 163, 26);
+
+
+}
+
+.first button, #contact form button{
+    width:140px;
+    border: 1px solid rgb(255, 128, 0);
+    border-radius: 10px;
+    height:40px;
+    padding: 5px;
+    text-transform: uppercase;
+    color:white;
+    background-color: rgb(255, 128, 0);
+    font-size: 0.7em;
+    font-weight:bold;
+    margin-left:20px;
+}
+#founder{
+    width: 90%;
+    height: 300px;
+    border-radius: 200px;
+    margin:20px 90px;
+    padding:80px 50px;
+    background-image: url("./images/jerome.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+#about{
+    padding:30px;
+}
+
+#about p{
+    padding:5px 0px;
+    font-size: 1em;
+    font-weight:400;
+    color:rgb(255, 163, 26);
+
+}
+#services{
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  justify-content :space-between;
+  margin: 20px 50px;
+}
+#services > .test{
+  margin: 10px;
+  position:relative;
+}
+#services >.test .content{
+   position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 163, 26);
+    width:100%;
+    height:120px;
+    padding: 10px;
+    
+}
+#services >.test .content h4{
+  Font-size:1.5em;
+  padding:5px;
+  font-weight: 900;
+}
+.container > .gallery{
+  margin:40px;
+}
+.container > .gallery img {
+  padding: 10px;
+}
+section > h3{
+  margin :0 auto;
+  text-align: center;
+  color:rgb(255, 163, 26);
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+}
+.container> #contact{
+  margin:30px;
+}
+#contact form{
+	width: 80%;
+  max-width: 400px;
+	margin: 20px auto;
+	text-align: center;
+
+}
+#contact form h3 , .container div h3,.container div address{
+  color: rgb(255, 128, 0);
+  font-size: 1em;
+  font-weight:700;
+  text-transform: uppercase;
+  text-align: center;
+}
+#contact input{
+	width: 100%;
+  margin:10px 0;
+  height:50px;
+  padding: 10px;
+  border-color:rgb(255, 163, 26) ;
+  color:rgb(255, 163, 26);
+}
+
+#contact textarea{
+	width: 100%;
+  margin:10px 0;
+  height:90px;
+  border-color:rgb(255, 163, 26) ;
+  color:rgb(255, 163, 26);
+}
+#contact .button{
+	margin-top: 10px; 
+}
+footer >.container {
+  background-color:rgb(255, 163, 26);
+  color:white;
+}
+}
+@media only screen and (min-width: 600px) {
+  
+}
