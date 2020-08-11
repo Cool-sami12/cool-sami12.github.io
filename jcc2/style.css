@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+h1,h2,h3,h4,h5,h6,div, p{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+
+}
+body{
+    
+    color:#FCF6F5FF;
+     font-family: 'Karla' sans-serif;
+}
+.wrapper{
+    float: left;
+    clear: both;
+    width: 100%;
+}
+.header{
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color:#990011FF;
+    position: fixed;
+}
+.navbar{
+    padding: 20px 0px;
+    line-height: 1.9;
+}
+.nav-link{
+    color:#FCF6F5FF;
+    font-size: 1.2em;
+    font-family: 'Roboto' sans-serif;
+    margin: 0px 10px;
+    text-transform: uppercase;   
+
+}
+
+.nav-link > button{
+    width: 140px;
+    border: 1px solid #990011FF;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #990011FF;
+    background-color: #FCF6F5FF;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.branding div{
+    color: #FCF6F5FF;
+    text-decoration: none;
+    display: inline;
+    font-weight: 600;
+}
+ .branding img {
+    margin: 0;
+    padding: 0;
+  }
+  .branding div::after,.footer .branding::after{
+    content: "cake";
+    display: block;
+    font-size: 0.6em;
+    font-weight: 600;
+    padding-left: 25%;
+    text-transform: uppercase;
+  }
+.banner{
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#990011FF;
+}
+  .first h1 {
+    padding: 20px 0px;
+    font-size: 3em;
+    font-weight: 700;
+    color: #FCF6F5FF;
+  }
+
+  .first p {
+    padding: 20px 0px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #FCF6F5FF;
+  }
+
+  .first button{
+    width: 140px;
+    border: 1px solid #FCF6F5FF;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #990011FF;
+    background-color: #FCF6F5FF;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .about{
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 50px 0px;
+    background-color:white;
+    color: #990011FF;
+  }
+  
+  .founder{
+      width: 90%;
+    height: 300px;
+    border-radius: 200px;
+    margin:0px 0px 100px 0px;
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  #services{
+      color: #990011FF;
+       background-color: #FCF6F5FF;     
+  }
+.card{
+    margin:20px;
+}
+.portfolio{
+    background-color: #990011FF;
+    color: #FCF6F5FF;
+}
+.im{
+    margin-bottom: 10px;
+}
+#contact{
+    color: #990011FF;
+    background-color: #FCF6F5FF;
+}
+#contact form {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  #contact form h3,
+  .container div h3,
+  .container div address {
+    color: #990011FF;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #contact input {
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    padding: 10px;
+    border-color: #990011FF;
+    color: #990011FF;
+  }
+
+  #contact textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 90px;
+    border-color: #990011FF;
+    color: #990011FF;
+  }
+  #contact .button {
+    margin-top: 10px;
+    
+  }
+  #contact form button {
+    width: 140px;
+    border: 1px solid #990011FF;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #990011FF;
+    background-color: #FCF6F5FF;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+.footer{
+    color:#FCF6F5FF;
+    background-color: #990011FF;
+}
