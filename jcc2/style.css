@@ -15,27 +15,26 @@ body{
      font-family: 'Karla' sans-serif;
 }
 .wrapper{
-    float: left;
-    clear: both;
-    width: 100%;
+        width: 100%;
 }
 .header{
-    float: left;
-    clear: both;
     width: 100%;
     background-color:#990011FF;
-    position: fixed;
+    z-index:1000;
+
 }
 .navbar{
     padding: 20px 0px;
     line-height: 1.9;
+    background-color:#990011FF;
 }
 .nav-link{
     color:#FCF6F5FF;
     font-size: 1.2em;
     font-family: 'Roboto' sans-serif;
     margin: 0px 10px;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+    text-align: right;  
 
 }
 
@@ -61,7 +60,7 @@ body{
     margin: 0;
     padding: 0;
   }
-  .branding div::after,.footer .branding::after{
+  .branding > a > div::after{
     content: "cake";
     display: block;
     font-size: 0.6em;
@@ -70,8 +69,6 @@ body{
     text-transform: uppercase;
   }
 .banner{
-    float: left;
-    clear: both;
     width: 100%;
     padding: 100px 0px;
     background-color:#990011FF;
@@ -103,9 +100,7 @@ body{
     font-weight: bold;
     margin-left: 20px;
   }
-  .about{
-    float: left;
-    clear: both;
+  #about{
     width: 100%;
     padding: 50px 0px;
     background-color:white;
@@ -113,21 +108,21 @@ body{
   }
   
   .founder{
-      width: 90%;
+    width: 90%;
     height: 300px;
     border-radius: 200px;
     margin:0px 0px 100px 0px;
     background-repeat: no-repeat;
     background-position: cover;
   }
-  #services{
+  #service{
       color: #990011FF;
        background-color: #FCF6F5FF;     
   }
 .card{
     margin:20px;
 }
-.portfolio{
+#portfolio{
     background-color: #990011FF;
     color: #FCF6F5FF;
 }
