@@ -3,7 +3,7 @@
     text-decoration: none;
 
 }
-h1,h2,h3,h4,h5,h6,div, span, p{
+h1,h2,h3,h4,h5,h6,div, p{
     margin:0;
     padding:0;
     text-decoration: none;
@@ -19,17 +19,17 @@ body{
 }
 .header{
     width: 100%;
-    background-image: linear-gradient(to right,#3C6F4A,#0E2B15);
+    background-color:#990011FF;
     z-index:1000;
 
 }
 .navbar{
     padding: 20px 0px;
     line-height: 1.9;
-    background-image:linear-gradient(to right, #487A68,#0F2E23);
+    background-color:#990011FF;
 }
 .nav-link{
-    color:#F2B8D3;
+    color:#FCF6F5FF;
     font-size: 1.2em;
     font-family: 'Roboto' sans-serif;
     margin: 0px 10px;
@@ -40,25 +40,18 @@ body{
 
 .nav-link > button{
     width: 140px;
-    border: 1px solid #0F2E23;
+    border: 1px solid #990011FF;
     border-radius: 10px;
     height: 40px;
     padding: 5px;
     text-transform: uppercase;
-    color: #F2B8D3;
-    background-color: #487A68;
+    color: #990011FF;
+    background-color: #FCF6F5FF;
     font-size: 0.7em;
     font-weight: bold;
 }
 .branding div{
-    color: #F2B8D3;
-    text-decoration: none;
-    display: inline;
-    font-weight: 600;
-}
-
-.branding div > span{
-    color: #0F2E23;
+    color: #FCF6F5FF;
     text-decoration: none;
     display: inline;
     font-weight: 600;
@@ -78,91 +71,67 @@ body{
 .banner{
     width: 100%;
     padding: 100px 0px;
-    background-image:linear-gradient(to right, #487A68,#0F2E23);
+    background-color:#990011FF;
 }
   .first h1 {
     padding: 20px 0px;
     font-size: 3em;
     font-weight: 700;
-    color: #F2B8D3;
-  }
-  .first h1 span{
-      color: #0F2E23;
+    color: #FCF6F5FF;
   }
 
   .first p {
     padding: 20px 0px;
     font-size: 1em;
     font-weight: 400;
-    color:#FCF6F5FF;
+    color: #FCF6F5FF;
   }
 
   .first button{
     width: 140px;
-    border: 1px solid #F2B8D3;
+    border: 1px solid #FCF6F5FF;
     border-radius: 10px;
     height: 40px;
     padding: 5px;
     text-transform: uppercase;
-    color: #0E2B15;
-    background-color: #F2B8D3;
+    color: #990011FF;
+    background-color: #FCF6F5FF;
     font-size: 0.7em;
     font-weight: bold;
     margin-left: 20px;
-    margin-bottom: 20px;
-  }
-   #second{
-    width: 140px;
-    border: 1px solid #487A68;
-    border-radius: 10px;
-    height: 40px;
-    padding: 5px;
-    text-transform: uppercase;
-    color: #F2B8D3;
-    background-color: #0F2E23;
-    font-size: 0.7em;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-bottom: 20px;
-
   }
   #about{
     width: 100%;
     padding: 50px 0px;
-    color:#0F2E23;
-    background-image:linear-gradient(to right, #F2B8D3,#487A68);
+    background-color:white;
+    color: #990011FF;
   }
   
   .founder{
+    width: 90%;
+    height: 300px;
+    border-radius: 200px;
+    margin:0px 0px 100px 0px;
     background-repeat: no-repeat;
-    background-position: center;
-    margin:0px 0px 100px 0px;    
+    background-position: cover;
   }
-  
   #service{
-      color:#0F2E23;
-      background-color: #F2B8D3;
+      color: #990011FF;
+       background-color: #FCF6F5FF;     
   }
 .card{
     margin:20px;
-    color: #F2B8D3;
-    background-color: #0F2E23;
-
 }
 #portfolio{
-    background-color: #0F2E23;
-    color: #F2B8D3;
-
-}
-#portfolio h3{
-    padding: 10px 0px;
+    background-color: #990011FF;
+    color: #FCF6F5FF;
 }
 .im{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 #contact{
-    color: #0F2E23;
-    background-image:linear-gradient(to right,#487A68,#F2B8D3);
+    color: #990011FF;
+    background-color: #FCF6F5FF;
 }
 #contact form {
     width: 80%;
@@ -173,7 +142,7 @@ body{
   #contact form h3,
   .container div h3,
   .container div address {
-    color: #0F2E23;
+    color: #990011FF;
     font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
@@ -184,16 +153,16 @@ body{
     margin: 10px 0;
     height: 50px;
     padding: 10px;
-    border-color: #0F2E23;
-    color:#0F2E23;
+    border-color: #990011FF;
+    color: #990011FF;
   }
 
   #contact textarea {
     width: 100%;
     margin: 10px 0;
     height: 90px;
-    border-color: #0F2E23;
-    color:#0F2E23;
+    border-color: #990011FF;
+    color: #990011FF;
   }
   #contact .button {
     margin-top: 10px;
@@ -201,19 +170,18 @@ body{
   }
   #contact form button {
     width: 140px;
-    border: 1px solid #0F2E23;
+    border: 1px solid #990011FF;
     border-radius: 10px;
     height: 40px;
     padding: 5px;
     text-transform: uppercase;
-    color: #F2B8D3;
-    background-color: #0F2E23;
+    color: #990011FF;
+    background-color: #FCF6F5FF;
     font-size: 0.7em;
     font-weight: bold;
     margin-left: 20px;
   }
 .footer{
-    padding:5px 0px;
-    color:#F2B8D3;
-    background-image:linear-gradient(to right,#0F2E23,#487A68);
+    color:#FCF6F5FF;
+    background-color: #990011FF;
 }
