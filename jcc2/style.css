@@ -80,6 +80,9 @@ body{
     padding: 100px 0px;
     background-image:linear-gradient(to right, #487A68,#0F2E23);
 }
+.banner .caro{
+  padding-top:50px;
+}
   .first h1 {
     padding: 20px 0px;
     font-size: 3em;
@@ -87,7 +90,7 @@ body{
     color: #F2B8D3;
   }
   .first h1 span{
-      color: #0F2E23;
+      color: #487A68;
   }
 
   .first p {
@@ -140,8 +143,9 @@ body{
   }
   
   #service{
-      color:#0F2E23;
-      background-color: #F2B8D3;
+    color: #F2B8D3;
+      background-image:linear-gradient(to right,#487A68,#F2B8D3);
+      
   }
 .card{
     margin:20px;
@@ -150,8 +154,8 @@ body{
 
 }
 #portfolio{
-    background-color: #0F2E23;
-    color: #F2B8D3;
+    background-image:linear-gradient(to right, #F2B8D3,#487A68);
+    color:#0F2E23;
 
 }
 #portfolio h3{
@@ -215,5 +219,6 @@ body{
 .footer{
     padding:5px 0px;
     color:#F2B8D3;
-    background-image:linear-gradient(to right,#0F2E23,#487A68);
+    font-size: 12px;
+    background-image:linear-gradient(to right,#487A68,#0F2E23);
 }
